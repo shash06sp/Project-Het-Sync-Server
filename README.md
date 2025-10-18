@@ -9,7 +9,7 @@ This is the source code repository for Project Het-Sync, an ultra-high-performan
 
 This project showcases an end-to-end systems design and analysis workflow: creating from ground up a complex network service utilizing low-level Linux APIs, creating a proprietary communication protocol, building a benchmarking set, and conducting a quantitative analysis to demonstrate the efficacy of the system.
 
-![Performance Graph](Performance_Graph.png)
+![Performance Graph](PerformanceGraph.png)
 _(Final benchmark results demonstrating the success of the Het-Sync server.)_
 
 ---
@@ -79,7 +79,7 @@ This ensures that system-wide progress is never halted by a single slow or unres
 
 The effectiveness of the Het-Sync server was demonstrated by comparing it to a naive synchronous server that waits forever for all workers.
 
-![Performance Graph](finalResults.png)
+![Performance Graph](PerformanceGraph.png)
 
 ### Performance Comparison Table
 

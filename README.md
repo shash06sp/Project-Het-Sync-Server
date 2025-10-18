@@ -115,7 +115,7 @@ The results are conclusive. The graph and table clearly show that the **Naive Se
     ```bash
     make
     ```
-5.  To run the full manual demonstration showing the timeout in action, use five separate terminals as described in the "How_T0_Run" file instructions.
+5.  To run the full manual demonstration showing the timeout in action, use five separate terminals as described in the "How_To_Run" file instructions.
 
 ---
 

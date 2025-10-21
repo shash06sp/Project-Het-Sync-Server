@@ -31,6 +31,7 @@ This project demonstrates an end-to-end systems design and analysis process. It 
 As machine learning models expand, training is distributed across clusters of computers. A major issue is synchronization. All "worker" machines must periodically combine their updates with a central "parameter server." The speed of this combination limits the overall training speed.
 
 Project Het-Sync addresses this synchronization issue. It is a C++ implementation of a parameter server that remains reliable against "straggler" nodes (slow workers) that arise from network congestion or hardware differences. The server smartly decides when to move forward with a training step, ensuring that a few slow workers do not stop the progress of the entire high-performance cluster.
+
 ---
 
 ## 2. Problem Statement

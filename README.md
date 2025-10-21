@@ -139,4 +139,4 @@ This advanced analysis provides direct, quantitative evidence of the system's lo
 
 ## 8. Setup & Usage
 
-Please refer to the `How_TO_Run.md` file for detailed, step-by-step instructions on how to build the server and run the manual demonstrations for both the Het-Sync server and the eBPF profiler.
+Please refer to the `How_To_Run.md` file for detailed, step-by-step instructions on how to build the server and run the manual demonstrations for both the Het-Sync server and the eBPF profiler.

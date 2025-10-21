@@ -37,7 +37,7 @@ The provided `Makefile` automates the compilation process.
 
 This experiment uses five terminals to demonstrate the "straggler problem" and your solution.
 
-### Experiment A: Proving the Naive Server Fails (Gets Stuck) 🐢
+### Experiment A: Proving the Naive Server Fails (Gets Stuck) 
 
 1.  **Terminal 1 (Server):** Start the server in **naive mode**.
     ```bash
@@ -57,7 +57,7 @@ This experiment uses five terminals to demonstrate the "straggler problem" and y
 4.  **Observe:** The server in Terminal 1 will get stuck waiting and will **never** print a "Broadcasted..." message. This is the **successful outcome** of this test, proving the naive approach fails.
 5.  **Clean Up:** Press `Ctrl+C` in all five terminals.
 
-### Experiment B: Proving the Het-Sync Server Succeeds (Times Out) 🚀
+### Experiment B: Proving the Het-Sync Server Succeeds (Times Out) 
 
 1.  **Clean Up:** Run `pkill -f ./server && pkill -f python3`
 2.  **Terminal 1 (Server):** Start the server in **smart mode**.
@@ -109,5 +109,6 @@ This is a two-stage process: first, you collect the raw performance data, and se
     ```bash
     python3 analyze_latency.py
     ```
+    
 2.  **Observe the Result:** The script will print a statistical summary (mean, median, etc.) to your terminal.
 3.  **View the Graph:** The script will also create the final histogram image named `latency_histogram.png`. Open this file to see your final statistical result.

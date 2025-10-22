@@ -106,14 +106,14 @@ The profiler generated the following statistics for kernel-space latency during 
 
 | Statistic | Server (C++) Latency (µs) | Worker (Python) Latency (µs) |
 | :-------- | :------------------------ | :--------------------------- |
-| count     | 100.0                     | 110.0                        |
-| mean      | 75.8                      | 65.2                         |
-| std       | 35.1                      | 29.8                         |
-| min       | 12.9                      | 11.4                         |
-| 25%       | 45.3                      | 36.1                         |
-| 50%       | 72.7                      | 68.3                         |
-| 75%       | 101.8                     | 86.4                         |
-| max       | 145.3                     | 111.2                        |
+| count     | 10.0                      | 10.0                         |
+| mean      | 62.04                     | 63.90                        |
+| std       | 36.03                     | 35.29                        |
+| min       | 28.56                     | 19.13                        |
+| 25%       | 28.91                     | 33.64                        |
+| 50%       | 49.48                     | 65.96                        |
+| 75%       | 97.52                     | 85.78                        |
+| max       | 109.58                    | 115.03                       |
 
 
 ### Latency Distribution
